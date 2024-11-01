@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(0, 0%, 8%);
+	font-family: Arial, sans-serif;
+	color: hsl(0, 0%, 100%);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 400px;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: hsl(0, 0%, 12%);
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.profile {
+	width: 100%;
+	margin-top: 30px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.profile img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.profile h2 {
+	font-size: 16px;
+	margin-top: -14px;
+	color: hsl(75, 94%, 57%);
+}
+
+.profile p {
+	font-size: 16px;
+	color: hsl(75, 7%, 56%);
+}
+
+.content {
+	width: 80%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.content ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.content ul li:hover {
+	background-color: hsl(75, 94%, 57%);
+	color: hsl(0, 0%, 20%);
+	cursor: pointer;
+}
+
+.content ul li {
+	font-weight: bolder;
+	background-color: hsl(0, 0%, 20%);
+	padding: 14px;
+	border-radius: 8px;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
